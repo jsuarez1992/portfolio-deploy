@@ -17,8 +17,7 @@ const Hero = () => (
     <div className="flex justify-center 
     items-center flex-col relative z-10">
       <motion.h1 variants={textVariant(1.1)}
-      className={`${styles.heroHeading} text-purple-400`}
-      style={{ fontSize: '7rem' }}>
+      className={`${styles.heroHeading} text-purple-400 text-6xl sm:text-5xl md:text-6xl`}>
       Hi, i am
       </motion.h1>
       <motion-div
@@ -26,7 +25,7 @@ const Hero = () => (
       className="flex flex-row justify-center 
       items-center"
       >        
-        <h1 className={styles.heroHeading}>JESSICA SUAREZ</h1>
+        <h1 className={`${styles.heroHeading} text-4xl sm:text-5xl md:text-6xl`}>JESSICA SUAREZ</h1>
       </motion-div>
     </div>
     <motion.div
